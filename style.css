@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+}
+.bg1 {
+  background-image: url("images/img-3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.bg2 {
+  background-image: url("images/img-2.jpe");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: url("images/header-bg.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 130px;
+    background-size: cover;
+  }
+  .head {
+    color: black !important;
+  }
+  .bg2 {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
