@@ -34,4 +34,16 @@ body {
     height: 200px;
     margin-bottom: 10px;
   }
+  .display-1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bg1 {
+    height: 350px;
+  }
+  .bg2 {
+    height: 250px;
+  }
 }
